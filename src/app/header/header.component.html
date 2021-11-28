@@ -1,0 +1,10 @@
+<div class="home__header">
+    <div class="home__headerLeft"></div>
+    <div class="home__headerRight">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <div class="gridIcon"></div>
+        <button (click)="googleAuth()" *ngIf="!loggedIn">Sign In</button>
+        <img [src]="image" alt="Photo" class="photo" *ngIf="loggedIn" (click)="signOut()">
+    </div>
+</div>

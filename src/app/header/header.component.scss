@@ -1,0 +1,82 @@
+body, .home {
+    margin: 0;
+    padding: 0;
+}
+
+.home__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.home__header a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    font-size: 15px;
+    color: rgba(0,0,0,0.87);
+}
+
+.home__header a:hover {
+    text-decoration: underline;
+}
+
+.home__headerRight {
+    display: flex;
+    justify-content: space-between;
+    min-width: 13vw;
+    align-items: center;
+}
+
+.home__headerRight .icon {
+    margin-right: 20px;
+}
+
+.photo {
+    margin-left: 20px;
+    height: 32px;
+    width: 32px;
+    background-size: 32px 32px;
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+.home__headerRight .gridIcon {
+    color: #000;
+    background-position: -132px -38px;
+    opacity: .55;
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+}
+
+.home__header button {
+    position: relative;
+    margin-left: 10px;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 3px;
+    font-family: arial,sans-serif;
+}
